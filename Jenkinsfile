@@ -8,6 +8,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/2453011-ux/Jenkinstrial.git'
+            }
         }
 
         stage('Build') {
